@@ -25,7 +25,7 @@
    
 4. In VS Code editor - open Terminal and run the command to install project existing dependencies: `npm install`
 
-5. In case, `npm install' fails to install required dependencies then run the below command:
+5. In case, `npm install` fails to install required dependencies then run the below command:
     `npm install --save-dev supertest mocha chai mochawesome @babel/core @babel/node @babel/register @babel/preset-env @babel/plugin-transform-runtime`
 
 6. If Step 4 works fine, ignore Step 5
