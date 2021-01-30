@@ -6,16 +6,31 @@
 3. Visual Studio Code Editor (VS Code)
 
 # Steps:
-1. Clone the Repo from GitLab
+1. Clone the Repo from GitHub
 2. Open the project in the VS Code editor
-3. In VS Code editor - open Terminal and run the command to install project existing dependencies: `npm install`
+3. Create the following files in the project, if you don't see them in the project 
 
-4. In case, `npm install' fails to install required dependencies then run the below command:
+   Filename: .babelrc
+   Add the below info to the file: 
+   {
+    "presets": ["@babel/preset-env"],
+    "plugins": [["@babel/transform-runtime",
+                    {"regenerator": true}]
+                ]
+  }
+
+  Filename: .mocharc.yaml
+  Add the below info:
+                    require: '@babel/register'
+   
+4. In VS Code editor - open Terminal and run the command to install project existing dependencies: `npm install`
+
+5. In case, `npm install' fails to install required dependencies then run the below command:
     `npm install --save-dev supertest mocha chai mochawesome @babel/core @babel/node @babel/register @babel/preset-env @babel/plugin-transform-runtime`
 
-5. If Step 3 works fine, ignore Step 4
+6. If Step 4 works fine, ignore Step 5
 
-6. # Simply to Run the tests: 
+7. # Simply to Run the tests: 
 `npm test`
 
 # To see tests along with Passed/Failed report run the command as below:
