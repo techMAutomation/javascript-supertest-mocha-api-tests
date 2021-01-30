@@ -7,7 +7,7 @@
 
 # Steps:
 1. Clone the Repo from GitLab
-2. Open the folder `API-SUPERTEST-MOCHA-TESTS` in VS Code editor
+2. Open the project in VS Code editor
 3. In VS Code editor - open Terminal and run the command to install project existing dependencies: `npm install`
 
 4. In case, `npm install' fails to install required dependencies then run the below command:
