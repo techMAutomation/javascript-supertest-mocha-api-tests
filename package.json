@@ -1,7 +1,7 @@
 {
-  "name": "supertest-mocha-chai-tests",
+  "name": "javascript-supertest-mocha-api-tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "Supertest Mocha Chai API Tests",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

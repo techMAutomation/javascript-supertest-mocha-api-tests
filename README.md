@@ -7,7 +7,7 @@
 
 # Steps:
 1. Clone the Repo from GitLab
-2. Open the project in VS Code editor
+2. Open the project in the VS Code editor
 3. In VS Code editor - open Terminal and run the command to install project existing dependencies: `npm install`
 
 4. In case, `npm install' fails to install required dependencies then run the below command:
@@ -24,9 +24,9 @@
 # NOTE: 
 1. Once the tests are completed running, in the terminal displays 2 different Report links such as JSON and HTML like below :
 
-JSON Link: `[mochawesome] Report JSON saved to /Users/xxxx/xxxx/xxxx/api-supertest-mocha-tests/mochawesome-report/mochawesome.json`
+JSON Link: `[mochawesome] Report JSON saved to /Users/xxxx/xxxx/xxxx/javascript-supertest-mocha-api-tests/mochawesome-report/mochawesome.json`
 
-HTML link: `[mochawesome] Report HTML saved to /Users/xxxx/xxxx/xxxx/api-supertest-mocha-tests/mochawesome-report/mochawesome.html`
+HTML link: `[mochawesome] Report HTML saved to /Users/xxxx/xxxx/xxxx/javascript-supertest-mocha-api-tests/mochawesome-report/mochawesome.html`
 
 2. Copy the HTML report link and paste it in a browser to see the TESTS report 
   (or)
